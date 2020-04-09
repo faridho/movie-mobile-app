@@ -1,6 +1,6 @@
 # UI Movie Mobile App
 
-Only UI movie mobile web design 
+only UI movie mobile web design 
 
 ## Install dependencies
 
