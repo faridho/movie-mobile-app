@@ -1,0 +1,63 @@
+@import './colors';
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+
+    .the-slides {
+        display: none;
+    }
+
+    .super-dot {
+        text-align: center;
+
+        .dot {
+            cursor: pointer;
+            height: 2px;
+            width: 30px;
+            margin: 0 2px;
+            background-color: #bbb;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        .dot:hover {
+            background-color: #717171;
+        }
+    }
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    
+    .img-slide {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+
+    .search-form {
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        right: 15px;
+        top: 15px;
+     }
+     
+    .burger-menu {
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        left: 15px;
+        top: 15px;
+    }
+}

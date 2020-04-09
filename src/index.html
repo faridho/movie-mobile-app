@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Movie List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <link href="font/css/all.css" rel="stylesheet" />
+    </head>
+    <body>
+        <section class="slideshow-container">
+            <div class="burger-menu">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="search-form">
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="the-slides fade">
+                <img src="img/gallery/slide-1.jpeg" class="img-slide">
+            </div>
+            <div class="the-slides fade">
+                <img src="img/gallery/slide-2.jpg" class="img-slide">
+            </div>
+            <div class="super-dot">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="list-title">
+                Recommended movies
+            </div>
+            <div class="card">
+                <div class="poster-card">
+                    <a href="detail.html"><img class="poster-img" src="img/stranger-things.png" alt="" /></a>
+                </div>
+                <div class="movie-content">
+                    <div class="movie-title">The Stranger Things (2016)</div>
+                    <div class="movie-genres">Drama, Fantasy, Horror </div>
+                    <div class="movie-duration">Netflix</div>
+                    <div class="movie-description">When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back</div>
+                    <div class="movie-thriler"><i class="fa fa-play-circle"></i></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="poster-card">
+                    <img class="poster-img" src="img/the-witcher.png" alt="" />
+                </div>
+                <div class="movie-content">
+                    <div class="movie-title">The Witcher (2019)</div>
+                    <div class="movie-genres"> Action, Adventure, Drama </div>
+                    <div class="movie-duration">Netflix</div>
+                    <div class="movie-description">Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts</div>
+                    <div class="movie-thriler"><i class="fa fa-play-circle"></i></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="poster-card">
+                    <img class="poster-img" src="img/the-platform.png" alt="" />
+                </div>
+                <div class="movie-content">
+                    <div class="movie-title">The Platform (2019)</div>
+                    <div class="movie-genres"> Horror, Sci-Fi, Thriller </div>
+                    <div class="movie-duration">Netflix</div>
+                    <div class="movie-description">A vertical prison with one cell per level. Two people per cell. One only food platform and two minutes per day to feed from up to down</div>
+                    <div class="movie-thriler"><i class="fa fa-play-circle"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="nav-bottom">
+            <div class="menu-item menu-item-active">
+                <div class="menu-content">
+                    <i class="fa fa-home"></i>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-content">
+                    <i class="fa fa-calendar"></i>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-content">
+                    <i class="fa fa-info-circle"></i>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="js/app.js"></script>
+    </body>
+</html>

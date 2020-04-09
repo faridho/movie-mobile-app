@@ -1,0 +1,162 @@
+@import './colors';
+@import './components';
+
+$chips-component: (
+    "source" $source $title,
+    "pg" $theme $mainBackground
+);
+
+.banner-detail-content {
+    margin: 0;
+
+    .back-arrow {
+        position: absolute;
+        left: 13px;
+        top: 12px;
+        color: $mainBackground;
+    }
+
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.detail-card  {
+    background: $mainBackground;
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+
+    .poster-detail-card {
+        float: left;
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 15px;
+        bottom: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .poster-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .movie-play-button {
+        color: $theme;
+        position: absolute;
+        font-size: 40px;
+        left: 32%;
+        top: 139px;
+    }
+
+    .movie-card-content {
+        width: 65%;
+        float: right;
+    }
+
+    .movie-card-title{
+        font-size: 16px;
+        color: $title;
+        padding: 10px 12px 5px 12px;
+    }
+
+    .movie-card-genres {
+        font-size: 11px;
+        color: $desc;
+        padding: 8px 12px 5px 12px;
+    }
+
+    .movie-card-showup {
+        width: 100%;
+        padding: 8px 12px 22px 12px;
+        font-size: 11px;
+
+        .detail-release {
+            color: $desc;
+            width: 50%;
+            float: left;
+        }
+
+        .detail-duration {
+            color: $title;
+            width: 49%;
+            font-weight: bold;
+            float: right;
+        }
+
+    }
+
+    .movie-card-components {
+        width: 100%;
+        padding: 8px 12px 20px 12px;
+        font-size: 11px;
+
+        .detail-rated {
+            color: $title;
+            width: 16%;
+            float: left;
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+
+        .detail-components {
+            color: $title;
+            width: 84%;
+            font-weight: bold;
+            float: right;
+            padding-top: 4px;
+            padding-bottom: 4px;
+
+            @each $type, $background, $color in $chips-component {
+                .movie-chips-#{$type} {
+                    padding: 3px 5px 3px 5px;
+                    border-radius: 8px;
+                    font-size: 8px;
+                    background: $background;
+                    color: $color;
+    
+                }
+            }
+        }
+
+    }
+
+}
+
+.detail-description {
+    padding-left: 12px;
+    padding-right: 17px;
+
+    .detail-description-production {
+        width: 100%;
+        height: auto;
+        padding-left: 5px;
+        padding-top: 2px;
+        font-size: 12px;
+        color: $desc;
+    }
+}
+
+.detail-gallery {
+    margin-top: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $mainBackground;
+
+    .gallery-item {
+        flex-grow: 1;
+        width: 33%;
+        margin: 1px;
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
