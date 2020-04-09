@@ -1,8 +1,15 @@
-# movie-mobile-app
-Just UI Design
+# Project Title
 
-#install dependencies
+Only UI movie mobile web design 
+
+## Install dependencies
+
 npm install
 
-#run
-npm run dev
+### Run 
+
+npm run dev 
+
+
+* **Faridho** - *Initial work* - [Medium](https://medium.com/@faridho)
+
