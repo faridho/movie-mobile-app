@@ -11,5 +11,5 @@ npm install
 npm run dev 
 
 
-* **Faridho** - *Initial work* - [Medium](https://medium.com/@faridho)
+* **Faridho** - [Medium](https://medium.com/@faridho)
 
