@@ -1,15 +1,15 @@
 # UI Movie Mobile App
 
-only UI movie mobile web design 
+only UI movie mobile web design by scss
 
 ## Install dependencies
 
+```
 npm install
+```
 
-### Run 
+### Run developement mode
 
+```
 npm run dev 
-
-
-* **Faridho** - [Medium](https://medium.com/@faridho)
-
+```
