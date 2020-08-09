@@ -1,6 +1,6 @@
 # UI Movie Mobile App
 
-only UI movie mobile web design by scss
+Only UI movie mobile web design by scss
 
 ## Install dependencies
 
