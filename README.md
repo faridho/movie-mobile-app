@@ -1,15 +1,4 @@
-# UI Movie Mobile App
+# UI movie mobile app
 
-Only UI movie mobile web design by scss
-
-## Install dependencies
-
-```
-npm install
-```
-
-### Run developement mode
-
-```
-npm run dev 
-```
+![alt_text](images/home-page.png)
+![alt_text](images/detail-page.png)
